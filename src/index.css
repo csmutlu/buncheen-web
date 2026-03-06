@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  --color-bg-soft: #fff8f7;
+  --color-footer-soft: #fff3f1;
+  --color-ink: #262626;
+  --color-muted: #727272;
+  --color-muted-soft: #999999;
+  --color-line: #efe1df;
+  --color-line-soft: #efebea;
+  --color-divider: #ddd2d1;
+  --color-divider-soft: #ddd2d0;
+  --color-accent: #ff725e;
+  --color-accent-dark: #ff5c4d;
+  --color-brand: #776bb3;
+  --color-accent-border: #ffb4a7;
+  --color-accent-soft: #ff806e;
+  --color-accent-wash: #ffe1da;
+  --color-accent-ring: #fef3e6;
+  --color-surface-hover: #faf5f4;
+  --color-surface-hover-soft: #fff3f0;
+  --color-star: #ffbf48;
+  --color-badge: #9d9d9d;
+  --color-profile-javar: #f79c8f;
+  --color-profile-fausiah: #a59af5;
+  --color-profile-sheryl: #f1ddb2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #fff;
+  color: #262626;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
